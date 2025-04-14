@@ -18,7 +18,7 @@ enabled = true
 binding = "AI"
 
 # The /upload examples use this service. Uncomment once you have it uploaded
-# [[services]]
-# binding = "UPLOADER"
-# service = "autotranscriber"
-# entrypoint = "Uploader"
+[[services]]
+binding = "UPLOADER"
+service = "autotranscriber"
+entrypoint = "Uploader"
